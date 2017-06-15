@@ -1,6 +1,8 @@
 # BackgroundAudio - a Cordova plugin
 by [Eddy Verbruggen](http://twitter.com/eddyverbruggen)
 
+This is a branched version of Eddy's code. This branched version actually does the opposite of Eddy's code! It disables background audio for the app. Therefore, please disregard the rest of this README and instead use Eddy's repo from which this repo was forked.
+
 ## 0. Index
 
 1. [Description](#1-description)
