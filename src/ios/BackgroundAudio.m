@@ -5,8 +5,7 @@
 
 // this method is executed when the app loads because of the onload param in plugin.xml
 - (void)pluginInitialize {
- [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
- [[AVAudioSession sharedInstance] setActive: NO error: nil];
+ [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategorySoloAmbient error:nil];
 }
 
 @end
